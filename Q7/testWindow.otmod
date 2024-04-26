@@ -1,0 +1,13 @@
+Module
+  name: testWindow
+  description: testWindow
+  author: Mickael Bruzzi
+  website:
+
+  autoload: true
+  autoload-priority: 1000
+  sandboxed: true
+  dependencies: [ game_interface ]
+  scripts: [ testWindow ]
+  @onLoad: init()
+  @onUnload: terminate()

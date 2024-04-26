@@ -1,0 +1,10 @@
+MainWindow
+  id: testWindowMain
+  size: 300 300
+  @onEscape: modules.testWindow.closing()
+
+  Button
+    id: jump
+    !text: tr('Jump!')
+    width: 50
+    @onClick: modules.testWindow.buttonClick()
