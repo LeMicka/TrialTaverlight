@@ -10,3 +10,5 @@ And you can call functionf from it for example if a click hapenns you can call a
 
 testWindow.lua:
 This file contains the functions that we use in the window.
+
+In the testWindow folder is a png that should be the icon that shows on the button to make the window appera but it doesn't seem to work.
